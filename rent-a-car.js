@@ -36,3 +36,13 @@ function canYouDrive() {
     alert("Sorry, you are too young to drive/rent this car. Powering off.");
   }
 }
+
+//functions of current program
+
+// Prompt for Age: Added a more informative prompt asking the user to enter their age.
+
+// Input Validation: Checked if the user cancels the prompt or enters an empty string. If so, an error message is displayed.
+
+// Type Conversion: Converted the user's input to a number. This helps ensure that the age is treated as a number for comparison.
+
+// Consistent Comparison: Used strict equality (===) for comparisons to ensure both value and type are considered.
